@@ -12,7 +12,7 @@
 <!--        <span class="bg-dark-100 p-13px rounded-5px inline-block w-52 align-center">-->
 <!--          <a href="https://k8.io/promotions" class="text-swam-white-600 text-13px decoration-none">{{val.url}}</a>-->
 <!--        </span>-->
-        <span class="inline-block w-52 lowercase decoration-none" :class="val.type == 'title'? 'text-white text-xl' : 'text-green-100 text-base '"> {{val.status}}</span>
+        <span class="inline-block lowercase decoration-none" :class="val.type == 'title'? 'text-white text-xl' : 'text-green-100 text-base '"> {{val.status}}</span>
       </div>
     </div>
   </section>
@@ -20,7 +20,7 @@
     <div>
       <h1 class="text-xl"> What is a mirror site?</h1>
       <p class="text-base">
-        A mirror site is a duplicate of an existing website, created to minimize network congestion or enhance the accessibility of the primary website. The mirrors mentioned are exact replicas of K8 and are accessible through various URLs to aid users experiencing connectivity problems with K8
+        A mirror site is a duplicate of an existing website, created to minimize network congestion or enhance the accessibility of the primary website. The mirrors mentioned are exact replicas of k8.io and are accessible through various URLs to aid users experiencing connectivity problems with K8.
       </p>
     </div>
   </section>
