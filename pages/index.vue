@@ -64,7 +64,7 @@ useHead({
     },
     {
       property:"og:image",
-      content: "img/logo.png"
+      content: "/img/logo.png"
     },
     {
       name:"description",
@@ -80,7 +80,7 @@ useHead({
     },
     {
       name:"twitter:image",
-      content: "img/logo.png"
+      content: "/img/logo.png"
     },
     {
       name:"twitter:card",
