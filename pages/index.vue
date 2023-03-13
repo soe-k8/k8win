@@ -1,28 +1,18 @@
 <template>
   <section>
-    <h1 class="text-white align-center"> Claim your Bonus </h1>
-    <div class="flex flex-row items-center justify-center my-12">
-      <h2 class="text-white mr-9 text-base">K8.io</h2>
-      <span class="bg-dark-100 p-13px rounded-5px w-52 align-center">
-        <a href="https://k8.io/promotions" class="text-swam-white-600 text-13px decoration-none" target="_blank">https://k8.io/promotions</a>
-      </span>
-    </div>
+    <h1 class="text-white align-center"> K8 Official Mirror List </h1>
   </section>
   <section>
-    <p class="text-white text-base align-center my-9">If you are looking for the bonus link for an official k8.io mirror site, then use one of the following:</p>
+    <p class="text-white text-base align-center my-9 text-xl">Can't access k8.io? Try one of these mirror sites below:</p>
     <div class="mt-4">
-      <div class="flex flex-row items-center justify-center mb-4">
-        <h2 class="text-white mr-9 text-base " style="width: 200px">Sites</h2>
-        <h2 class="text-white mr-9 text-base w-52"> Status</h2>
-      </div>
-      <div class="flex flex-row items-center justify-center mb-4" v-for="(val,key) in urlList">
-        <a :href="val.url" target="_blank" style="width: 200px" class="decoration-none">
-          <h2 class="text-white mr-9 text-base" >{{val.name}}</h2>
+      <div class="flex flex-row items-center justify-center mb-3" v-for="(val,key) in urlList">
+        <a :href="val.url" target="_blank" style="width: 200px" class="text-white mr-9 decoration-none">
+          <h2 class="capitalize" :class="val.type == 'title'? 'text-xl' : 'text-base'">{{val.name}}</h2>
         </a>
 <!--        <span class="bg-dark-100 p-13px rounded-5px inline-block w-52 align-center">-->
 <!--          <a href="https://k8.io/promotions" class="text-swam-white-600 text-13px decoration-none">{{val.url}}</a>-->
 <!--        </span>-->
-        <span class="inline-block w-52 lowercase text-base text-green-100 decoration-none"> online</span>
+        <span class="inline-block w-52 lowercase decoration-none" :class="val.type == 'title'? 'text-white text-xl' : 'text-green-100 text-base '"> {{val.status}}</span>
       </div>
     </div>
   </section>
@@ -39,7 +29,7 @@
 <script setup lang="ts">
 import {ref} from "vue";
 useHead({
-  titleTemplate: "Top of world Crypto Gambling - K8",
+  titleTemplate: "k8.io | Official Mirror List",
   meta: [
     {
       property:"og:image:width",
@@ -55,11 +45,11 @@ useHead({
     },
     {
       property:"og:title",
-      content: "Top of world Crypto Gambling - K8"
+      content: "k8.io | Official Mirror List"
     },
     {
       property:"og:description",
-      content: "More than 3000 games available at K8. Play games ranging from Slots, Roulette, Game Shows and receive promotion more than 30%"
+      content: "Sources for K8.io and its authorized repositories."
     },
     {
       property:"og:type",
@@ -75,15 +65,15 @@ useHead({
     },
     {
       name:"description",
-      content: "More than 3000 games available at K8. Play games ranging from Slots, Roulette, Game Shows and receive promotion more than 30%"
+      content: "Sources for K8.io and its authorized repositories."
     },
     {
       name:"twitter:title",
-      content: "Top of world Crypto Gambling - K8"
+      content: "k8.io | Official Mirror List"
     },
     {
       name:"twitter:description",
-      content: "More than 3000 games available at K8. Play games ranging from Slots, Roulette, Game Shows and receive promotion more than 30%"
+      content: "Sources for K8.io and its authorized repositories."
     },
     {
       name:"twitter:image",
@@ -102,24 +92,40 @@ useHead({
 
 const urlList = [
   {
+    name: "sites",
+    url: "https://k8.io",
+    status: 'Status',
+    type:'title',
+  },
+  {
     name: "K8",
-    url: "https://k8.io"
+    url: "https://k8.io",
+    status: "online",
+    type:'content',
   },
   {
     name: "K8 Casino",
-    url: "https://k8casino.io"
+    url: "https://k8casino.io",
+    status: "online",
+    type:'content',
   },
   {
     name: "K8 Bit",
-    url: "https://k8bit.io"
+    url: "https://k8bit.io",
+    status: "online",
+    type:'content',
   },
   {
     name: "K8 Casino1",
-    url: "https://k8casino1.com"
+    url: "https://k8casino1.com",
+    status: "online",
+    type:'content',
   },
   {
     name: "K8 Casino2",
-    url: "https://k8casino2.com"
+    url: "https://k8casino2.com",
+    status: "online",
+    type:'content',
   },
 ]
 
