@@ -20,7 +20,7 @@
     <div>
       <h1 class="text-xl"> What is a mirror site?</h1>
       <p class="text-base">
-        A mirror site is a duplicate of an existing website, created to minimize network congestion or enhance the accessibility of the primary website. The mirrors mentioned are exact replicas of Stake.com and are accessible through various URLs to aid users experiencing connectivity problems with K8
+        A mirror site is a duplicate of an existing website, created to minimize network congestion or enhance the accessibility of the primary website. The mirrors mentioned are exact replicas of K8 and are accessible through various URLs to aid users experiencing connectivity problems with K8
       </p>
     </div>
   </section>
