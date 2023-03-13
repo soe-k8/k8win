@@ -1,4 +1,4 @@
-body { margin: 0px}
+body { margin: 0px; font-family: proxima-nova,sans-serif}
 
 .text-white {color: #fff;}
 .text-swam-white-300 {color: #5E6985;}
@@ -11,7 +11,7 @@ body { margin: 0px}
 .decoration-none {text-decoration: none;}
 .capitalize {text-transform: capitalize;}
 .uppercase {text-transform: uppercase;}
-
+.text-green-100 {color: #1FFF20;}
 
 
 .bg-dark-100 { background-color: #161b2a ;}

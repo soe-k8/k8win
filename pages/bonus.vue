@@ -9,20 +9,13 @@
     </div>
   </section>
   <section>
-    <p class="text-white text-base align-center my-9">If you are looking for the bonus link for an official k8.io mirror site, then use one of the following:</p>
+    <p class="text-white text-base align-center my-9">If you are looking for the bonus link for an official Stake.com mirror site, then use one of the following:</p>
     <div class="mt-4">
-      <div class="flex flex-row items-center justify-center mb-4">
-        <h2 class="text-white mr-9 text-base " style="width: 200px">Sites</h2>
-        <h2 class="text-white mr-9 text-base w-52"> Status</h2>
-      </div>
       <div class="flex flex-row items-center justify-center mb-4" v-for="(val,key) in urlList">
-        <a :href="val.url" target="_blank" style="width: 200px" class="decoration-none">
-          <h2 class="text-white mr-9 text-base" >{{val.name}}</h2>
-        </a>
-<!--        <span class="bg-dark-100 p-13px rounded-5px inline-block w-52 align-center">-->
-<!--          <a href="https://k8.io/promotions" class="text-swam-white-600 text-13px decoration-none">{{val.url}}</a>-->
-<!--        </span>-->
-        <span class="inline-block w-52 lowercase text-base text-green-100 decoration-none"> online</span>
+        <h2 class="text-white mr-9 text-base">{{val.name}}</h2>
+        <span class="bg-dark-100 p-13px rounded-5px inline-block w-52 align-center">
+          <a href="https://k8.io/promotions" class="text-swam-white-600 text-13px decoration-none">{{val.url}}</a>
+        </span>
       </div>
     </div>
   </section>
@@ -30,7 +23,7 @@
     <div>
       <h1 class="text-xl"> What is a mirror site?</h1>
       <p class="text-base">
-        A mirror site is a duplicate of an existing website, created to minimize network congestion or enhance the accessibility of the primary website. The mirrors mentioned are exact replicas of Stake.com and are accessible through various URLs to aid users experiencing connectivity problems with K8
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam blanditiis commodi dolorum exercitationem ipsam maxime nostrum obcaecati placeat praesentium quo repudiandae saepe tempore, temporibus veniam vero voluptatem voluptatum. Consequuntur, similique.
       </p>
     </div>
   </section>
