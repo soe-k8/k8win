@@ -6,7 +6,7 @@
     <p class="text-white text-base align-center my-9 text-xl">Can't access k8.io? Try one of these mirror sites below:</p>
     <div class="mt-4">
       <div class="flex flex-row items-center justify-center mb-3" v-for="(val,key) in urlList">
-        <a :href="val.url" target="_blank" style="width: 200px" class="text-white mr-9 decoration-none">
+        <a :href="val.url" target="_blank" style="width: 200px" class="text-white mr-9" :class="val.type == 'title'? 'decoration-none' : ''">
           <h2 class="capitalize" :class="val.type == 'title'? 'text-xl' : 'text-base'">{{val.name}}</h2>
         </a>
 <!--        <span class="bg-dark-100 p-13px rounded-5px inline-block w-52 align-center">-->
@@ -61,7 +61,7 @@ useHead({
     },
     {
       property:"og:image",
-      content: "/img/logo.png"
+      content: "/img/shared_logo.png"
     },
     {
       name:"description",
@@ -77,7 +77,7 @@ useHead({
     },
     {
       name:"twitter:image",
-      content: "/img/logo.png"
+      content: "/img/shared_logo.png"
     },
     {
       name:"twitter:card",
