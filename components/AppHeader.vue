@@ -1,5 +1,5 @@
 <template>
-  <header class="py-16">
+  <header>
     <img src="/img/logo.png" alt="" loading="lazy" style="width: 120px">
   </header>
 </template>
