@@ -9,7 +9,7 @@
     </div>
   </section>
   <section>
-    <p class="text-white text-base align-center my-9">If you are looking for the bonus link for an official Stake.com mirror site, then use one of the following:</p>
+    <p class="text-white text-base align-center my-9">If you are looking for the bonus link for an official k8.io mirror site, then use one of the following:</p>
     <div class="mt-4">
       <div class="flex flex-row items-center justify-center mb-4" v-for="(val,key) in urlList">
         <h2 class="text-white mr-9 text-base">{{val.name}}</h2>

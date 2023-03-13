@@ -59,6 +59,10 @@ body { margin: 0px; font-family: proxima-nova,sans-serif}
   padding-top: 16px;
   padding-right: 16px;
 }
+.px-5 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
 
 .p-13px {
   padding-bottom: 13px;
@@ -77,6 +81,11 @@ body { margin: 0px; font-family: proxima-nova,sans-serif}
   padding-top: 13px;
   padding-right: 16px;
 }
+.py-16 {
+  padding-bottom: 64px;
+  padding-top: 64px;
+}
+
 .mr-2\.5 {
   margin-right: 10px;
 }

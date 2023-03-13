@@ -1,5 +1,5 @@
 <template>
-  <header class="mt-10">
+  <header class="py-16">
     <img src="/img/logo.png" alt="" loading="lazy" style="width: 120px">
   </header>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <div class="body px-5">
 <!--    <NuxtWelcome />-->
     <NuxtLayout>
       <NuxtPage></NuxtPage>
