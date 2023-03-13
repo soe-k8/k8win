@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo/logo-twitter@1x</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Boxs/Copyright_jp" transform="translate(-151.000000, -351.000000)">
+            <g id="social-entry" transform="translate(19.000000, 317.000000)">
+                <g id="social-icons" transform="translate(0.000000, 34.000000)">
+                    <g id="logo/logo-twitter" transform="translate(132.000000, 0.000000)">
+                        <circle id="Oval-Copy-3" fill="#313952" cx="17" cy="17" r="17"></circle>
+                        <g id="logo/logo-ig" transform="translate(7.000000, 7.000000)" fill-rule="nonzero">
+                            <path d="M10,0 C4.4771525,0 0,4.4771525 0,10 C0,15.5228475 4.4771525,20 10,20 C15.5228475,20 20,15.5228475 20,10 C20,4.4771525 15.5228475,0 10,0 Z" id="Path" fill="#03A9F4"></path>
+                            <path d="M16,6.56 C15.559,6.7555 15.0005,6.939 14.5,7 C15.009,6.698 15.8165,6.069 16,5.5 C15.5245,5.7795 14.6645,6.078 14.1035,6.186 C13.6555,5.711 13.0165,5.5 12.3085,5.5 C10.9485,5.5 10,6.6525 10,8 L10,9 C8,9 6.05,7.4765 4.8365,6 C4.623,6.3605 4.503,6.7825 4.503,7.2285 C4.503,8.138 5.3385,9.061 6,9.5 C5.5965,9.4875 4.8325,9.1795 4.5,9 C4.5,9.008 4.5,9.018 4.5,9.0285 C4.5,10.212 5.3305,11.0155 6.456,11.2395 C6.2505,11.296 6,11.5 5.036,11.5 C5.349,12.4675 6.9225,12.979 8,13 C7.157,13.6535 5.654,14 4.5,14 C4.3005,14 4.1925,14.011 4,13.9885 C5.089,14.6785 6.61,15 8,15 C12.5285,15 15,11.541 15,8.315 C15,8.209 14.9965,7.854 14.991,7.75 C15.475,7.409 15.671,7.052 16,6.56" id="Path" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

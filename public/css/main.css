@@ -1,0 +1,112 @@
+body { margin: 0px}
+
+.text-white {color: #fff;}
+.text-swam-white-300 {color: #5E6985;}
+.text-swam-white-600  {color: #f1f1f1;}
+.text-13px {font-size: 13px;}
+.text-base {font-size: 16px;}
+.text-lg{font-size: 18px;}
+.text-xl {font-size: 20px;}
+.align-center {text-align: center;}
+.decoration-none {text-decoration: none;}
+.capitalize {text-transform: capitalize;}
+.uppercase {text-transform: uppercase;}
+
+
+
+.bg-dark-100 { background-color: #161b2a ;}
+
+.flex {display: flex}
+.flex-col {flex-direction: column}
+.flex-row {flex-direction: row}
+.items-center {align-items: center}
+.justify-center {justify-content: center}
+
+.rounded-5px {border-radius: 5px}
+
+.p-0\.5 {
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-top: 2px;
+  padding-right: 2px;
+}
+
+.p-1 {
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-top: 4px;
+  padding-right: 4px;
+}
+.px-1 {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.py-1 {
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+.p-1\.5 {
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-top: 6px;
+  padding-right: 6px;
+}
+
+.p-4 {
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-right: 16px;
+}
+
+.p-13px {
+  padding-bottom: 13px;
+  padding-left: 13px;
+  padding-top: 13px;
+  padding-right: 16px;
+}
+.px-8 {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.p-9 {
+  padding-bottom: 36px;
+  padding-left: pxpx;
+  padding-top: 13px;
+  padding-right: 16px;
+}
+.mr-2\.5 {
+  margin-right: 10px;
+}
+
+.my-4 {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.mb-4 {margin-bottom: 16px;}
+.mt-4 {margin-top: 16px;}
+.mt-5 {margin-top: 20px;}
+.my-6 {
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+.mt-6 {margin-top: 24px;}
+.mr-8 {margin-right: 32px;}
+.mr-9 {margin-right: 36px;}
+.my-9 {margin-top: 36px; margin-bottom: 36px;}
+.m-9 {
+  margin-bottom: 36px;
+  margin-left: 36px;
+  margin-top: 36px;
+  margin-right: 36px;
+}
+.my-10 {margin-top: 40px;margin-bottom: 40px;}
+.mt-10 {margin-top: 40px;}
+.my-11 {margin-top: 44px;margin-bottom: 44px;}
+.my-12 {margin-top: 48px;margin-bottom: 48px;}
+
+.w-80 {width: 320px;}
+.w-52 {width: 208px}
+.inline-block {display: inline-block;}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo/logo-twitch@1x</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Boxs/Copyright_jp" transform="translate(-195.000000, -351.000000)">
+            <g id="social-entry" transform="translate(19.000000, 317.000000)">
+                <g id="social-icons" transform="translate(0.000000, 34.000000)">
+                    <g id="logo/logo-twitch" transform="translate(176.000000, 0.000000)">
+                        <circle id="Oval-Copy-4" fill="#313952" cx="17" cy="17" r="17"></circle>
+                        <g id="logo/logo-ig-copy-3" transform="translate(7.895313, 7.000000)">
+                            <polygon id="Shape" fill="#000000" points="1.34375 0 -1.77635684e-15 3.4328125 -1.77635684e-15 17.4625 4.77625 17.4625 4.77625 20 7.4628125 20 10.0003125 17.4625 13.8809375 17.4625 19.1046875 12.23875 19.1046875 0"></polygon>
+                            <path d="M17.313125,1.790625 L17.313125,11.34375 L14.3874474,13.8663519 L9.61150989,13.8663519 L7.07400989,16.4038519 L7.07400989,13.8663519 L3.91252325,13.8663519 L3.85320086,1.790625 L17.313125,1.790625 Z M14.328125,5.22375 L12.5375,5.22375 L12.5375,10.4475 L14.328125,10.4475 L14.328125,5.22375 Z M9.551875,5.22375 L7.76125,5.22375 L7.76125,10.4475 L9.551875,10.4475 L9.551875,5.22375 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
