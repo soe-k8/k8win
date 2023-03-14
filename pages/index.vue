@@ -7,7 +7,7 @@
     <div class="mt-4">
       <div class="flex flex-row items-center justify-center mb-3" v-for="(val,key) in urlList">
         <h2 class="text-white mr-9 w-51 text-xl" v-if="val.type == 'title'">{{val.name}}</h2>
-        <a :href="val.url" target="_blank" class="text-white mr-9 w-51" v-else>
+        <a :onclick="'window.open(\''+val.url+'\')'" href="javascript:void(0);" class="text-white mr-9 w-51" v-else>
           <h2 class="text-base">{{val.name}}</h2>
         </a>
 <!--        <span class="bg-dark-100 p-13px rounded-5px inline-block w-52 align-center">-->

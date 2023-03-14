@@ -8,7 +8,7 @@
 <!--            alt="K8 Casino Youtube Channel"-->
 <!--          >-->
 <!--      </a>-->
-      <a href="https://www.instagram.com/k8.io_official/" target="_blank" >
+      <a :onclick="'window.open(\'https://www.instagram.com/k8.io_official\', \'_blank\')'" href="javascript:void(0);">
           <img
             class="mr-2.5"
             src="/img/logo-ig@1x.svg"
@@ -16,7 +16,7 @@
             loading="lazy"
           >
       </a>
-      <a href="https://www.facebook.com/k8.io.official" target="_blank">
+      <a :onclick="'window.open(\'https://www.facebook.com/k8.io.official\', \'_blank\')'" href="javascript:void(0);">
           <img
             class="mr-2.5"
             src="/img/logo-fb.svg"
@@ -24,7 +24,7 @@
             loading="lazy"
           >
       </a>
-      <a href="https://twitter.com/k8official_en" target="_blank">
+      <a :onclick="'window.open(\'https://twitter.com/k8official_en\', \'_blank\')'" href="javascript:void(0);">
           <img
             class="mr-2.5"
             src="/img/logo-twitter@1x.svg"
@@ -32,7 +32,7 @@
             loading="lazy"
           >
       </a>
-      <a href="https://www.twitch.tv/k8_official" target="_blank">
+      <a :onclick="'window.open(\'https://www.twitch.tv/k8_official\', \'_blank\')'" href="javascript:void(0);">
           <img
             class="mr-2.5"
             src="/img/logo-twitch@1x.svg"
@@ -40,7 +40,7 @@
             loading="lazy"
           >
       </a>
-      <a href="https://www.tiktok.com/@k8.io_official" target="_blank">
+      <a :onclick="'window.open(\'https://www.tiktok.com/@k8.io_official\', \'_blank\')'" href="javascript:void(0);">
           <img
             src="/img/logo-Tiktok@1x.svg"
             alt="K8 Casino Tiktok Channel"
